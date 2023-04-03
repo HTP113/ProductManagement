@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MANAGEMENT SYSTEM</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css ">
+    <link rel="stylesheet"
+        href="https://www.google.com/search?q=tr%C3%A2m+c%C3%A0i+trung+hoa+h%C3%ACnh+%E1%BA%A3nh&rlz=1C1ONGR_
+    viVN1035VN1035&sxsrf=APwXEddLiuVFlgReZWGSYNv_gyVmTw844A:1680227060183&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjhuMHIhYX-AhVRCd4KHZgoCwkQ_AUoAXoECAIQAw&biw=638&bih=559&dpr=1.5#imgrc=2E3VHc7ujd1PYM&imgdii=akcEIzYoHXtENM">
+    <link rel="stylesheet" href="admin.css">
+</head>
+
+<body>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="add-item">
+                    <input type="hidden" id="idEdit">
+                    <div class="form-group">
+                        <label for="product">姓名 (name)</label>
+                        <input type="text" id="name" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="color">颜色 (color)</label>
+                        <input type="text" id="color" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="color">图像 (photo)</label>
+                        <input type="text" id="image" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="price">价格 (price)</label>
+                        <input type="number" id="price" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="price">数量 (Qty)</label>
+                        <input type="number" id="quantity" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for=""></label>
+                        <input id="txtProductUpdate" type="hidden" />
+                        <button id="btnAdd" class="btn btn-primary" onclick="addProduct()" type="button">Add</button>
+                        <button id="btnUpdate" class="btn btn-Up" style="display: none;" onclick="handleUpdate()"
+                            type="button">Update</button>
+                        <button id="btnCancel" class="btn btn-Ca" style="display: none;" onclick="handleCancel()"
+                            type="button">Cancel</button>
+
+                    </div>
+                    <div class="row">
+                        <div class="show-item">
+                            <table class="table table-hovered">
+                                <thead>
+                                    <tr>
+                                        <th>代码(ID)</th>
+                                        <th> 姓名(name)</th>
+                                        <th> 图像(color) </th>
+                                        <th>数量 (Qty)</th>
+                                        <th> 价格 (price) </th>
+                                        <th>运输(transport)</th>
+                                        <th>应用(tools)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+            
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <th colspan="4">全部的(total): </th>
+                                        <th id="totalprice"></th>
+                                        <th></th>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        </div>
+        <div class="icon">
+            我 可 以 帮 你 吗(Can I Help You)
+            <i class="fa-solid fa-phone"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-shield-halved"></i>
+            <i class="fa-solid fa-key"></i>
+        </div>
+        <script src="admin.js"> </script>
+    </body>
+
+</html>

@@ -1,0 +1,166 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* background-color: lavender; */
+}
+
+.container {
+    max-width: 900px;
+    margin: 5px auto;
+}
+
+.row {
+    background-color: lavender;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.add-item {
+    background-color: lavender;
+    padding: 10px 10px;
+    border: black;
+}
+/* .search-container {
+    float: left;
+    margin-top: 10px;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+.search-container input[type=text] {
+    padding: 4px 8px;
+    margin-top: 8px;
+    font-size: 15px;
+    border: 1px solid #F2B8B9;
+    border-right: none;
+    outline: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.search-container button {
+    float: right;
+    padding: 4px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #f2b6aa;
+    font-size: 15px;
+    border: 1px solid #f2b6aa;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+.search-container button:hover {
+    background: #d19a8d;
+    border: 1px solid #d19a8d;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.right-btn {
+    padding: 40px;
+    float: right;
+    width: 20%;
+} */
+.form-group {
+    display: flex;
+    margin-bottom: 2px;
+}
+
+.form-group>label {
+    width: 120px;
+}
+
+.form-control {
+    flex-grow: 1;
+    padding: 3px 0px;
+    border: none;
+    outline: none;
+    border: 1px solid #333;
+    border-radius: 3px;
+}
+
+ .btn {
+    border: none;
+    outline: none;
+    border: 1px solid #EFEFEF;
+    padding: 5px 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 70px; 
+    text-align: center;
+} 
+
+.btn-primary {
+    color: black;
+    background-color: lightcyan;
+    border-color: black;
+    /* padding: 5px 5px; */
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #678996;
+    border-color: black;
+}
+
+.btn-warning {
+    color: black;
+    background-color: lightcyan;
+    border-color: black;
+}
+
+.btn-warning:hover {
+    color: #fff;
+    background-color: #678996;
+    border-color: black;
+}
+
+.btn-danger {
+    color: black;
+    background-color: lightcyan;
+    border-color: black;
+}
+
+.btn-danger:hover {
+    color: #fff;
+    background-color: #678996;
+    border-color: black;
+}
+
+.table {    width: 100%;
+    cursor: pointer;
+}
+
+.table-hovered>tbody>tr:hover {
+    background-color: gainsboro ;
+}
+
+.table,
+tr,
+td,
+th {
+    border-collapse: collapse;
+    padding: 3px;
+    border: 1px dashed #333;
+}
+
+.table>thead {
+    background-color: lavender;
+}
+
+.table>thead>tr>th {
+    padding: 5px 0px;
+    color: black
+}
+.icon{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 800px;
+    margin: 15px auto;
+    /* align-items: center; */
+    /* float: right; */
+}
+/* .text-right{
+    text-align: right; cho nằm bên phải
+} */
